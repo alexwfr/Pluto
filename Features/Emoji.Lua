@@ -15,6 +15,7 @@ local Premium = {
 
 local Blacklisted = {
 	[3656041166] = true,
+	[2211015718] = true,
 }
 
 local Staff = {
@@ -44,7 +45,7 @@ function Emoji()
 		elseif Blacklisted[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡 Kill This Loser 🤡')
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡 Kill This Faggot 🤡')
 				end
 			end
 		elseif Staff[v.UserId] then

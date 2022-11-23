@@ -4,3 +4,6 @@ end
 if game:GetService('Players').LocalPlayer.UserId == 3206348312 then
     game:GetService('Players').LocalPlayer:Kick("You're a clown 🤡")
 end
+if game:GetService('Players').LocalPlayer.UserId == 2211015718 then
+    game:GetService('Players').LocalPlayer:Kick("Kys ugly faggot")
+end
