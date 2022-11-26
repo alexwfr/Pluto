@@ -13,6 +13,7 @@ local Premium = {
 	[3884067907] = true, -- Booster (799464486082838538)
 	[835955637] = true, -- Booster (831360423587872838)
 	[2867786657] = true, -- Booster (767343137386397737)
+	[2399790274] = true, -- Booster (667383883863556126)
 }
 
 local Blacklisted = {
