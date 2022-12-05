@@ -1,1 +1,1 @@
-Thank you for choosing Pluto.
+SPACEX stole our UI, we didn't steal theirs.
