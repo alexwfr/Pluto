@@ -44,13 +44,13 @@ function Emoji()
 		elseif Juke[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Daddy Juke <3')
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
 				end
 			end
 		elseif Blacklisted[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡 Blacklisted Clown 🤡')
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡🤡🤡')
 				end
 			end
 		elseif Staff[v.UserId] then
@@ -61,7 +61,7 @@ function Emoji()
 			end
 		elseif v.Character then
 			if v.Character.Parent.Name == 'Players' then
-				if not v.Character.UpperTorso:FindFirstChild("BodyFrontAttachment") then
+				if not v.Character.UpperTorso:FindFirstChild('AvatarPartScaleType') then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💖]'..v.DisplayName)
 				end
 				if not v.Character.UpperTorso:FindFirstChild('BodyBackAttachment') then
