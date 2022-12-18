@@ -7,6 +7,7 @@ local Premium = {
 	[835955637] = true, -- Booster (831360423587872838)
 	[77561039] = true, -- Robux (252701640069480448)
 	[262240084] = true, -- PayPal : Sean (838988703904694302)
+	[783598452] = true, -- Robux (1005043839939137556)
 }
 
 local Blacklisted = {
