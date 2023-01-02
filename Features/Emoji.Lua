@@ -27,12 +27,6 @@ local Blacklisted = {
 	[2211015718] = true,
 }
 
-local Staff = {
-	[1521778981] = true, -- Moderator (716924296345157702)
-	[3087820975] = true, -- Moderator (712872169084026940)
-	[350549342] = true, -- Trial Staff (942613997323182210)
-}
-
 local Juke = {
 	[2440150407] = true,
 }
@@ -55,12 +49,6 @@ function Emoji()
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡🤡🤡')
-				end
-			end
-		elseif Staff[v.UserId] then
-			if v.Character then
-				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]'..v.DisplayName)
 				end
 			end
 		elseif v.Character then
