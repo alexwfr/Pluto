@@ -20,6 +20,8 @@ local Premium = {
 	[1181761708] = true, -- Robux (874851908156784640)
 	[130200569] = true, -- PayPal: Juke (798606809656459342)
 	[4112410266] = true, -- Robux (926054654926811196)
+	[246800762] = true, — Paypal: Alex (828677717011595286)
+	
 }
 
 local Blacklisted = {
