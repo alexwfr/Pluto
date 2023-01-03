@@ -26,6 +26,7 @@ local Database = {
 	1798355668, -- Giveaway: Alex (969164214163898408)
 	4203395322, -- Giveaway: Alex (503693331692388354)
 	12277944, -- Paypal: Alex (1005043839939137556)
+	2223055679, -- Boost: x2 (747086676110737468)
 }
 
 return Database
