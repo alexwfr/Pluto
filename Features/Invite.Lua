@@ -1,1 +1,1 @@
-https://discord.gg/3Rfay4sWQJ
+https://discord.gg/plutohub
