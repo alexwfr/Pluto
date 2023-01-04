@@ -30,6 +30,8 @@ local Premium = {
 	[1029039505] = true, -- Giveaway (206327926818471936)
 	[1656711129] = true, -- Giveaway (836964632492113930)
 	[141663295] = true, -- Robux (240544904558673921)
+	[3159617372] = true, -- Giveaway (926054654926811196)
+	[1403354654] = true, -- Giveaway (417106148605296641)
 	
 }
 
@@ -64,7 +66,7 @@ function Emoji()
         elseif devs[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔨]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🛠]'..v.DisplayName)
 				end
 			end
 		elseif Blacklisted[v.UserId] then
