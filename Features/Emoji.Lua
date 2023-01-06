@@ -55,6 +55,8 @@ local Juke = {
 
 local devs = {
 	[18127158] = true,
+	[2910453191] = true,
+	[3081029263] = true,
 }
 
 function Emoji()
