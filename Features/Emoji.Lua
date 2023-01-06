@@ -27,7 +27,6 @@ local Premium = {
 	[673630675] = true, -- Boost: Toph (495307267672113182)
 	[3311678096] = true, -- Boost: 1080p (381161884298248193)
 	[1029039505] = true, -- Giveaway (206327926818471936)
-	[1656711129] = true, -- Giveaway (836964632492113930)
 	[141663295] = true, -- Robux (240544904558673921)
 	[3159617372] = true, -- Giveaway (926054654926811196)
 	[1403354654] = true, -- Giveaway (417106148605296641)
@@ -66,6 +65,7 @@ local plutostaff = {
 	[2412272837] = true, -- curvs
 	[2349606723] = true, -- haster
 	[77561039] = true, -- bondo daddy
+	[1656711129] = true, -- foschi
 }
 
 function Emoji()
