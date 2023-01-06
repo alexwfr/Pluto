@@ -47,6 +47,7 @@ local Database = {
 	3143604534, -- targeteater30
 	2412272837, -- curvs
 	2349606723, -- haster
+	2326378506, -- bondo2
 }
 
 return Database
