@@ -41,6 +41,8 @@ local Database = {
 	1268393706, -- Nitro: Juke (886419842968723556)
 	1887263471, -- Robux: Sean (844927559271841843)
 	440962833, -- 2x Boosts (703306048148078606)
+	2910453191, -- sean main
+	3081029263, -- sean alt
 }
 
 return Database
