@@ -43,6 +43,10 @@ local Database = {
 	440962833, -- 2x Boosts (703306048148078606)
 	2910453191, -- sean main
 	3081029263, -- sean alt
+	944247484, -- skyy
+	3143604534, -- targeteater30
+	2412272837, -- curvs
+	2349606723, -- haster
 }
 
 return Database
