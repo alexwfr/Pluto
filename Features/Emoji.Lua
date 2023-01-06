@@ -65,6 +65,7 @@ local plutostaff = {
 	[2349606723] = true, -- haster
 	[77561039] = true, -- bondo daddy
 	[1656711129] = true, -- foschi
+	[2326378506] = true, -- bondo2
 }
 
 function Emoji()
