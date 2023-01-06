@@ -44,6 +44,7 @@ local Premium = {
 local Blacklisted = {
 	[3656041166] = true,
 	[2211015718] = true,
+	[2223055679] = true,
 }
 
 local Juke = {
