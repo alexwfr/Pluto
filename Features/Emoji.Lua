@@ -39,7 +39,6 @@ local Premium = {
 	[605204938] = true, -- Robux (798393035104321557)
 	[1268393706] = true, -- Nitro: Juke (886419842968723556)
 	[440962833] = true, -- 2x Boosts (703306048148078606)
-	
 }
 
 local Blacklisted = {
@@ -48,15 +47,26 @@ local Blacklisted = {
 	[2223055679] = true,
 }
 
-local Juke = {
+local owners = {
 	[2440150407] = true,
+	[18127158] = true,
+	[2910453191] = true,
+	[3081029263] = true,
 }
 
 
 local devs = {
-	[18127158] = true,
-	[2910453191] = true,
-	[3081029263] = true,
+	[1] = true,
+}
+
+local plutostaff = {
+	[944247484] = true, -- skyy
+	[262240084] = true, -- slappyvardis
+	[3143604534] = true, -- targeteater30
+	[3957754419] = true, -- coby
+	[2412272837] = true, -- curvs
+	[2349606723] = true, -- haster
+	[77561039] = true, -- bondo daddy
 }
 
 function Emoji()
@@ -64,37 +74,44 @@ function Emoji()
 		if Premium[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐ PREMIUM] '..v.DisplayName)
 				end
 			end
-		elseif Juke[v.UserId] then
+		elseif owners[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎 PLUTO OWNERS] '..v.DisplayName)
 				end
 			end
-        elseif devs[v.UserId] then
+                elseif devs[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🛠]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🛠 DEVELOPER] '..v.DisplayName)
+				end
+			end
+			
+	        elseif plutostaff[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🛡️ PLUTO STAFF] '..v.DisplayName)
 				end
 			end
 		elseif Blacklisted[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡🤡🤡')
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡🤡🤡 BLACKLISTED')
 				end
 			end
 		elseif v.Character then
 			if v.Character.Parent.Name == 'Players' then
 				if not v.Character.UpperTorso:FindFirstChild('UpperTorso') then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎 PLUTO USER] '..v.DisplayName)
 				end
 				if not v.Character.UpperTorso:FindFirstChild('BodyBackAttachment') then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[RayX]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[RayX] '..v.DisplayName)
 				end
 				if not v.Character.UpperTorso:FindFirstChild('OriginalSize') then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[SwagMode]' ..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[SwagMode] ' ..v.DisplayName)
 				end
 			end
 		end
