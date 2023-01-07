@@ -1,1 +1,1 @@
-https://discord.gg/plutohub/
+https://discord.gg/plutohub
