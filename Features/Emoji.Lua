@@ -41,6 +41,54 @@ local Blacklisted = {
 	[2223055679] = true,
 }
 
+local Helper = {
+	[1]= true,
+}
+
+local Intern = {
+	[1]= true,
+}
+
+local Support = {
+	[1]= true,
+}
+
+local Moderator = {
+	[1]= true,
+}
+
+local InternLeader = {
+	[1]= true,
+}
+
+local Administrator = {
+	[1]= true,
+}
+
+local TeamLeader = {
+	[1]= true,
+}
+
+local Management = {
+	[1]= true,
+}
+
+local StaffingManager = {
+	[1]= true,
+}
+
+local PlutoManagement = {
+	[1]= true,
+}
+
+local OwnerTeam = {
+	[1]= true,
+}
+
+local CoFounder = {
+	[1]= true,
+}
+
 function Emoji()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
 		if Premium[v.UserId] then
@@ -53,6 +101,30 @@ function Emoji()
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡🤡🤡')
+				end
+			end
+	        elseif Helper[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (''v.dsplayName)
+				end
+			end
+	        elseif Blacklisted[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐] '..v.DisplayName)
+				end
+			end
+	        elseif Blacklisted[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐] '..v.DisplayName)
+				end
+			end
+	        elseif Blacklisted[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐] '..v.DisplayName)
 				end
 			end
 		elseif v.Character then
