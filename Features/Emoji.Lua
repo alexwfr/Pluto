@@ -89,6 +89,10 @@ local CoFounder = {
 	[1]= true,
 }
 
+local Founder = {
+	[1]= true,
+}
+
 function Emoji()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
 		if Premium[v.UserId] then
@@ -106,25 +110,73 @@ function Emoji()
 	        elseif Helper[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (''v.dsplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[HELPER] '..v.DisplayName)
 				end
 			end
-	        elseif Blacklisted[v.UserId] then
+	        elseif Intern[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐] '..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[INTERN] '..v.DisplayName)
 				end
 			end
-	        elseif Blacklisted[v.UserId] then
+	        elseif Support[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐] '..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[SUPPORT] '..v.DisplayName)
 				end
 			end
-	        elseif Blacklisted[v.UserId] then
+	        elseif Moderator[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐] '..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[MODERATOR] '..v.DisplayName)
+				end
+			end
+	        elseif InternLeader[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[INTERN LEADER] '..v.DisplayName)
+				end
+			end
+	        elseif Administrator[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[ADMINISTRATOR] '..v.DisplayName)
+				end
+			end
+	        elseif TeamLeader[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[TEAM LEADER] '..v.DisplayName)
+				end
+			end
+	        elseif Management[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[MANAGEMENT] '..v.DisplayName)
+				end
+			end
+	        elseif StaffingManager[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[STAFFING MANAGER] '..v.DisplayName)
+				end
+			end
+	        elseif PlutrorId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[MODERATOR] '..v.DisplayName)
+				end
+			end
+	        elseif Moderator[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[MODERATOR] '..v.DisplayName)
+				end
+			end
+	        elseif Moderator[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[MODERATOR] '..v.DisplayName)
 				end
 			end
 		elseif v.Character then
