@@ -13,7 +13,6 @@ local Premium = {
 	[686115266] = true, -- Robux (810558772120387616)
 	[293387158] = true, -- Robux (379114123050614784)
 	[1938430596] = true, -- Robux (203279315503153152)
-	[993331411] = true, -- Robux (790208914170839060)
 	[2296923316] = true, -- Robux (723390936079532124)
 	[2266148679] = true, -- SpaceX (1015208720935952414)
 	[1181761708] = true, -- Robux (874851908156784640)
@@ -42,55 +41,57 @@ local Blacklisted = {
 }
 
 local Helper = {
-	[1]= true,
+	[1] = true,
 }
 
 local Intern = {
-	[1]= true,
+	[993331411] = true, -- entity (790208914170839060)
 }
 
 local Support = {
-	[1]= true,
+	[2396368620] = true, -- ! VS (848559550784602182)
 }
 
 local Moderator = {
-	[1]= true,
+	[83930837] = true, -- Clickxy (240544904558673921)
 }
 
 local InternLeader = {
-	[1]= true,
+	[3143604534] = true, -- targeteater30 (1014521762647646219)
 }
 
 local Administrator = {
-	[1]= true,
+	[944247484] = true, -- Skyy (860444698157776908)
 }
 
 local TeamLeader = {
-	[1]= true,
+	[2556759841] = true, -- Firox (911538216945979402}
 }
 
 local Management = {
-	[1]= true,
+	[2301340408] = true, -- Haster (10445072769516913242) 
 }
 
 local StaffingManager = {
-	[1]= true,
+	[3957754419] = true, -- Coby (953841683211108385)
 }
 
 local PlutoManagement = {
-	[1]= true,
+	[77561039] = true, -- bondo (252701640069480448)
+	[2326378506] = true, -- bondo (252701640069480448)
 }
 
 local OwnerTeam = {
-	[1]= true,
+	[1] = true,
 }
 
 local CoFounder = {
-	[1]= true,
+	[2910453191] = true, -- sean? (806967970857091095)
+	[3081029263] = true, -- sean? (806967970857091095)
 }
 
 local Founder = {
-	[1]= true,
+	[2440150407] = true, -- juke (893030423460974592)
 }
 
 function Emoji()
