@@ -161,22 +161,28 @@ function Emoji()
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[STAFFING MANAGER] '..v.DisplayName)
 				end
 			end
-	        elseif PlutrorId] then
+	        elseif PlutoManagement[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[MODERATOR] '..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[PLUTO MANAGEMENT] '..v.DisplayName)
 				end
 			end
-	        elseif Moderator[v.UserId] then
+	        elseif OwnerTeam[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[MODERATOR] '..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[OWNERS] '..v.DisplayName)
 				end
 			end
-	        elseif Moderator[v.UserId] then
+	        elseif CoFounder[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[MODERATOR] '..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[CO-FOUNDER] '..v.DisplayName)
+				end
+			end
+	        elseif Founder[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[FOUNDER] '..v.DisplayName)
 				end
 			end
 		elseif v.Character then
